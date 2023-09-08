@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/x-icon" href="../quotes-mark-png.png">
+    <!-- Font-Awesome'css for the icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom-style.css -->
+    <link rel="stylesheet" href="../StyleSheet/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="button-container">
+          <button id="favorite" class="icon"><i class="fa-regular fa-heart"></i></button>
+          <button id="show-list" class="icon"><i class="fa-solid fa-list"></i></button>
+          <button id="copy" class="icon"><i class="fa-solid fa-copy"></i></button>
+        </div>
+        <p id="quote">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          voluptates itaque porro aperiam quia laudantium corrupti repellat
+          perferendis provident dolorem.
+        </p>
+        <h3 id="author">Jhon Doe</h3>
+        <button id="btn">Generate</button>
+      </div>
+    </div>
+    <div class="favorite-container">
+      <h3>Favorite Quotes</h3>
+      <ul id="list-of-favorite-quotes"></ul>
+      <button id="clear-button">Clear</button>
+      <button id="close-button">Close</button>
+    </div>
+    <!-- Custom-app.js -->
+    <script src="../JavaScript/app.js"></script>
+  </body>
+</html>

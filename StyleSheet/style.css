@@ -1,0 +1,76 @@
+/* ------------Google-Font----------- */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;300;400;500;600;700;800&family=Lato:wght@300;400;700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* ---------reset-css-------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #eef2f3;
+}
+/* ----------Quote-app container----------  */
+.wrapper,
+.favorite-container {
+  width: min(550px, 90%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5em 3em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  background: #8e9eab;
+  border-radius: 1em;
+}
+.container {
+  text-align: center;
+}
+.container p {
+  color: #d6d6d6d6;
+  margin: 1.5em 0 1.5em 0;
+  cursor: pointer;
+}
+.container h3 {
+  color: #fff;
+}
+/* ----------Quote-app container end----------  */
+/*------------buttons-----------*/
+.wrapper #btn,
+.favorite-container button {
+  background-color: #fff;
+  padding: 1em 2em;
+  border-radius: 3em;
+  margin-top: 4em;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+}
+.button-container .icon {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+/*-----------buttons end---------*/
+/*---------Favorites-container--------*/
+.favorite-container h3 {
+  color: #fff;
+}
+.favorite-container ul {
+  color: #d6d6d6d6;
+}
+.favorite-container li {
+  padding: 1em 0;
+}
+.active {
+  color: red;
+}
